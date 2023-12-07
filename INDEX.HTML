@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
     <title>Práctica HTML Henry</title>
 </head>
 <body>
     <header>
         <h1>PRIMERA PRÁCTICA DE HTML</h1>
-        <img src="/image.png">
+        <img src="/image.png" class="imagen">
     </header>
     <main>
-        <div>
+        <div class="presentación">
             <h2>Esta es mi presentación</h2>
-            <p>Soy Betsabé Chica, me dicen Betsa. Tengo 27 años y estoy haciendo el curso de Henry</p>
+            <p class="desciption">Soy Betsabé Chica, me dicen Betsa. Tengo 27 años y estoy haciendo el curso de Henry</p>
         </div>
-        <div>
+        <div class="contact">
             <p>¿Te gustaría que te contacte para brindarte más información?</p>
-            <select name="contacto" >
+            <select id="select" name="contacto" >
                 <option value="si">Sí</option>
                 <option value="no">No</option>
             </select>

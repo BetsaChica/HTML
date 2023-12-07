@@ -1,0 +1,35 @@
+/* Reset.css */
+
+/* Box-sizing border-box para todos los elementos */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Eliminar márgenes y rellenos predeterminados */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Eliminar estilos de lista (viñetas y numeración) */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Eliminar estilos predeterminados para enlaces de anclaje */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Establecer la familia de fuentes y el tamaño predeterminados */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Puedes agregar estilos adicionales o reinicios según sea necesario */
